@@ -1,3 +1,66 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Progressive & Professional Resume"
+baseURL = "https://resume.rs"
+tags = ["professional", "resume", "progressive", "resume rules", "field-tested", "continuous"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "resume"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+  tagline = "resume"
+  author = "Anibal Aguila"
+  description = "Use progressive and professional field-tested resume templates that follow the exact ‘resume rules’ employers look for."
+  logoBig = "/images/cover-full.png"
+  logoSmall = "/images/cover-full.png"
+  favicon = "favicon.ico"
+  opengraphImage = "/images/profile.png"
+  email = "hello@resume.rs"
+  googleTagManager = ""
+  customCSS = false
+
+  # Social media links in footer
+  twitter = ""
+  linkedin = ""
+  github = "resume-rs/website"
+  facebook = ""
+
+  # Copyright and theme author credit in footer
+  copyright = false
+  credit = false
+
+  # Cache busting of static resources (additional set up required)
+  cacheBustCSS = true
+  cacheBustJS = true
+
+  # Code highlighting with highlight.js
+  highlightJS = true
+  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
+  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+
+  # Choose either Formspree contact form or Basin contact form
+  ajaxFormspree = false
+  ajaxFormspreeGold = false
+  ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+
+  # Lazy loading with lazysizes
+  lazyloading = true
+
+#[[menu.main]]
+#  name = "About"
+#  url  = "/#about"
+#  weight = 1
+#[[menu.main]]
+#  name = "Work"
+#  url  = "/#work"
+#  weight = 2
+#[[menu.main]]
+#  name = "Blog"
+#  url  = "/#blog"
+#  weight = 3
+##[[menu.main]]
+#  name = "Contact"
+#  url  = "/#contact"
+#  weight = 4
